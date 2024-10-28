@@ -37,7 +37,7 @@ This is a fullstack task management application that allows users to manage thei
 1. Start the backend server:
     ```sh
     cd server
-    npm run server
+    npm start
     ```
 2. Start the frontend development server:
     ```sh
