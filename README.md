@@ -31,6 +31,13 @@ This is a fullstack task management application that allows users to manage thei
     npm install
     cd ..
     ```
+4. **Add Environment Variables**:
+    - Create a `.env` file in the `server` directory.
+    - Add your MongoDB URI to the `.env` file:
+      ```plaintext
+      ATLAS_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+      ```
+    - Replace `<username>`, `<password>`, and `<dbname>` with your MongoDB credentials and the name of your database.
 
 ## Usage
 
@@ -44,8 +51,3 @@ This is a fullstack task management application that allows users to manage thei
     cd client
     npm start
     ```
-
-
-
-
-
