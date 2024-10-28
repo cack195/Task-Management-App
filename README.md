@@ -30,8 +30,6 @@ This is a fullstack task management application that allows users to manage thei
     cd client
     npm install
     cd ..
-    cd server
-    npm install
     ```
 4. **Add Environment Variables**:
     - Create a `.env` file in the `server` directory.
@@ -43,13 +41,11 @@ This is a fullstack task management application that allows users to manage thei
 
 ## Usage
 
-1. Start the backend server:
+1. Start both the backend and frontend servers with a single command:
     ```sh
-    cd server
-    npm start
+    ./start.sh
     ```
-2. Start the frontend development server:
-    ```sh
-    cd client
-    npm start
-    ```
+
+### Additional Notes
+- Make sure to keep your `.env` file private and do not share it in public repositories.
+- If you are using a version control system like Git, add `.env` to your `.gitignore` file to prevent it from being committed.
