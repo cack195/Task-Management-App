@@ -27,7 +27,6 @@ This is a fullstack task management application that allows users to manage thei
     ```
 3. Install dependencies for both frontend and backend:
     ```sh
-    npm install
     cd client
     npm install
     cd ..
@@ -37,6 +36,7 @@ This is a fullstack task management application that allows users to manage thei
 
 1. Start the backend server:
     ```sh
+    cd server
     npm run server
     ```
 2. Start the frontend development server:
