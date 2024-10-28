@@ -30,6 +30,8 @@ This is a fullstack task management application that allows users to manage thei
     cd client
     npm install
     cd ..
+    cd server
+    npm install
     ```
 4. **Add Environment Variables**:
     - Create a `.env` file in the `server` directory.
