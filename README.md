@@ -23,7 +23,7 @@ This is a fullstack task management application that allows users to manage thei
     ```
 2. Navigate to the project directory:
     ```sh
-    cd fullstack-task-manager
+    cd task-management-app
     ```
 3. Install dependencies for both frontend and backend:
     ```sh
