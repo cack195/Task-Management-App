@@ -45,7 +45,3 @@ This is a fullstack task management application that allows users to manage thei
     ```sh
     ./start.sh
     ```
-
-### Additional Notes
-- Make sure to keep your `.env` file private and do not share it in public repositories.
-- If you are using a version control system like Git, add `.env` to your `.gitignore` file to prevent it from being committed.
